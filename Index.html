@@ -1,0 +1,193 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/boda.css">
+    <title>BODA</title>
+
+</head>
+
+<body>
+    <!--titulo de la web-->
+    <h1>Sofia & César</h1>
+    <!--menu de la pagina-->
+    <nav>
+        <!--creo una lista para hacer el menu-->
+        <ul class="menu">
+            <!--parte del menu que habla sobrer nosotros-->
+            <li><a href="#nosotros">Nosotros</a></li>
+            <!--los lugares de la iglesia y el banquete-->
+            <li><a href="#lugar">Lugar</a></li>
+            <!--formulario para los invitados-->
+            <li><a href="#formulario">Formulario</a></li>
+            <!--contacto nuestro y mapa de los lugares-->
+            <li><a href="#contacto">Contacto</a></li>
+
+        </ul>
+    </nav>
+    <!--una introduccion-->
+    <h3>Sofia y César solicitan con alegría el placer de su compañía mientras pronunciamos nuestros votos y nos unimos en matrimonio en presencia de familiares y amigos. </h3>
+    <!--una caja para contar nuestra historia-->
+    <div class="box">
+        <div class="texto" id="nosotros">
+            <!--cuento mi historia-->
+            <h4>Nosotros nos conocimos en primaria, en tercero de secundaria empezamos a tener una relación sentimental. Legó el final de bachillerato, Sofia para estudiar lo que ella quería se tuvo que ir a Estados Unidos y César se quedó en España. Años
+                despues Sofia volvió a España después de terminar la carrera para trabajar en la empresa familiar pero un año antes de que Sofia volviera Cesar se fue a Australia por Trabajo. Años mas tarde cuando los dos tenian 24 años coincidieron en
+                verano en España en un restaurante de Málaga, donde estuvieron hablando y poniendose al dia. El poco tiempo que estaba Cesar en Malaga fue suficiente para que volvieran a creer en el amor por lo que Cesar decidio no volver a Australia
+                y dos años despues nos encontramos aquí, comunicando su boda.
+            </h4>
+        </div>
+    </div>
+    <!--infomacion de donde es la boda-->
+    <h3>La boda tendrá lugar en la iglesia de la Amargura Málaga</h3>
+    <!--un div para meter la imagen de la iglesia-->
+    <div class="box" id="lugar">
+        <!--aqui esta la foto-->
+        <div class="foto1">
+
+        </div>
+    </div>
+    <!--informacion de donde es el banquete-->
+    <h3>La celebarcion será en el Hotel Miramar</h3>
+    <!--un div para meter la imagen de donde es la celebracion-->
+    <div class="box">
+        <!--aqui la imagen del lugar-->
+        <div class="foto2">
+
+        </div>
+    </div>
+    <!--formulario para los invitados-->
+    <table class="box" id="formulario">
+        <!--para darle forma al forma-->
+        <tr>
+            <td>
+                <fieldset>
+                    <!--titulo del formalario-->
+                    <legend>Formulario de corfirmacion a la boda</legend>
+                    <!--creo la tabla-->
+                    <table>
+                        <tr>
+                            <td>
+                                <!--primera seccion del formulario-->
+                                <fieldset>
+                                    <!--titulo de esta seccion-->
+                                    <legend>Datos del asistente</legend><br>
+                                    <!--para que indiquen la infomacion que pido-->
+                                    <label for="name">Nombre y Apellidos</label>
+                                    <!--hueco para escribir-->
+                                    <input type="text" id="email" size="30" maxlength="40"><br>
+                                    <!--para que indiquen la infomacion que pido-->
+                                    <label for="email">Correo electrónico</label>
+                                    <!--hueco para escribir-->
+                                    <input type="text" id="pass" size="30" maxlength="30"><br>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <!--segunda seccion del formulario-->
+                                <fieldset>
+                                    <!--titulo de esta seccion-->
+                                    <legend>Acompañantes</legend>
+                                    <!--para que se puedar selecionar solo una opcion-->
+                                    <select multiple="no" size="3">
+                                                    <optgroup label="">
+                                                        <!--la opcion si-->
+                                                        <option value="AR001" selected="selected">Sí</option>
+                                                        <!--la opcion no-->
+                                                        <option value="AR002">No</option>
+                                                        
+                                                    </optgroup>
+                                                </select>
+                                </fieldset>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <!--creamos otra tabla dentro de la tabla grande-->
+                    <table>
+
+
+                        <tr>
+
+                            <td>
+                                <fieldset>
+                                    <!--titulo de esta seccion-->
+                                    <legend>Comida</legend>
+                                    <!--para que se puedar selecionar solo una opcion-->
+                                    <select multiple="no" size="3">
+                                                    <optgroup label="">
+                                                        <!--la opcion carne-->
+                                                        <option value="AR001" selected="selected">Carne</option>
+                                                        <!--la opcion pescado-->
+                                                        <option value="AR002">Pescado</option>
+                                                        
+                                                    </optgroup>
+                                                </select>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <fieldset>
+                                    <!--titulo de esta seccion-->
+                                    <legend>Alergenos</legend><br>
+                                    <!--para que indiquen la infomacion que pido-->
+                                    <label for="entidad">Alergias</label><br>
+                                    <input type="text" id="entidad" size="30"><br>
+                                    <!--para que indiquen la infomacion que pido-->
+                                    <label for="cuenta">Ingredientes que no sean del agrado</label><br>
+                                    <!--hueco para escribir-->
+                                    <input type="text" id="cuenta" size="30"><br>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!--boton de enviar-->
+                            <td><button type="send">ENVIAR</a></button>
+                            </td>
+                            <!--boton de resetear-->
+                            <td><button type="reset">RESET</button></td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+
+            </td>
+        </tr>
+        <!--cierra a tabla grande-->
+    </table>
+    <!--h3 para poner la seccion de contacto-->
+    <h3 id="contacto">Contacto</h3>
+    <!--para indicar mi numero de telefono-->
+    <p>Numero de telefono:
+        <!--link a mi numero de telefono-->
+        <a href="tel:+34608943624"> 608943624</a>
+    </p>
+    <p>
+        <!--link al mail de la boda-->
+        <a href="mailto:bodasofiaycesar@gmail.com">Mail: bodasofiaycesar@gmail.com</a></p>
+
+    <!--para ubicar los lugares-->
+    <h4>Ubicacion iglesia</h4>
+    <!--direccion de la iglesia-->
+    <p>Ubicacion iglesia: <a>C. Honduras, 2, 29007 Málaga</a></p>
+    <div class="iglesia">
+        <!--link y mapa de la iglesia-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3920.2387984146912!2d-4.434224267368518!3d36.720011005200384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbae0ada5b8dad49b!2sParroquia%20Santa%20Mar%C3%ADa%20de%20la%20Amargura!5e1!3m2!1ses!2ses!4v1653057738961!5m2!1ses!2ses"
+            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--direccion de la iglesia-->
+    <h4>Ubicacion banquete</h4>
+    <p>P.º Reding, 22, 24, 29016 Málaga</p>
+    <div class="iglesia">
+        <!--link y mapa de la iglesia-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4035.071804628712!2d-4.410371084368383!3d36.72074827986702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7e7e7072d13%3A0xa3e58d83dbab808a!2sGran%20Hotel%20Miramar%20GL!5e1!3m2!1ses!2ses!4v1653058051255!5m2!1ses!2ses"
+            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <a href="../Index/map.xml">XML</a>
+
+
+
+</body>
+
+</html>

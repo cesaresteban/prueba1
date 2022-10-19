@@ -1,0 +1,228 @@
+/*para añadir una tipografia*/
+
+@font-face {
+    font-family: "Miama";
+    src: url("C:/Users/cesar.esteban/Desktop/Boda/img/Garamond.otf");
+}
+
+
+/*afecta a todos los h1*/
+
+h1 {
+    /*para utilizar la tipografia*/
+    font-family: "Miama";
+    /*texto centrado*/
+    text-align: center;
+    /*tamaño del texto*/
+    font-size: 80px;
+    /*margen de arriba*/
+    margin-top: 40px;
+}
+
+
+/*afecta a toda la pagina*/
+
+* {
+    /*para que no tenga padding*/
+    padding: 0;
+    /*para que no tenga margenes*/
+    margin: 0;
+    /*el espacio entre letras*/
+    letter-spacing: 1.1px;
+}
+
+
+/*clase para el menu*/
+
+.menu {
+    /*para que sea flexible*/
+    display: flex;
+    /*que se ajuste al centro*/
+    justify-content: center;
+    /*para que se ubiquen en el centro*/
+    align-items: center;
+    /*que tenga un ancho maximo*/
+    max-width: 720px;
+    /*para que no le afecte el margen*/
+    margin: 0 auto;
+    /*para el largo*/
+    height: 20vh;
+    /*para que no sea estilo de lista*/
+    list-style: none;
+    /*para que tenga un margen con arriba y este mas pegado*/
+    margin-top: -20;
+}
+
+
+/*afecta a los li del menu*/
+
+.menu li {
+    /*100% del ancho*/
+    width: 100%;
+    /*50px de alto*/
+    height: 50px;
+    /*texto en el centro*/
+    text-align: center;
+}
+
+
+/*afecta a las etiquetas a*/
+
+a {
+    /*tamaño de letra*/
+    font-size: 22px;
+    /*color de letra*/
+    color: black;
+    /*sin decoracion*/
+    text-decoration: none;
+}
+
+
+/*clase para el texto de mi historia*/
+
+.texto {
+    /*color de letra negro*/
+    color: black;
+    /*color del fondo en el div*/
+    background-color: #E7E7E7;
+    /*tamaño de letra*/
+    font-size: 22px;
+    /*el texto justificado*/
+    text-align: justify;
+    /*100% del ancho*/
+    width: 100%;
+    /*alto que sea automatico*/
+    height: auto;
+    /*margen con arriba*/
+    margin-top: 50px;
+    /*tipo de letras*/
+    font-family: "Miama";
+}
+
+
+/*afecta a los h3*/
+
+h3 {
+    /*para añadir una tipografia*/
+    font-family: "Miama";
+    /*tamaño de letra*/
+    font-size: 22px;
+    /*el texto centrado*/
+    text-align: center;
+    /*margen con arriba*/
+    margin-top: 50px;
+}
+
+
+/*clase para la foto de la iglesia*/
+
+.foto1 {
+    /*margen con arriba*/
+    margin-top: 25px;
+    /*añadir la imagen*/
+    background-image: url(../img/iglesia.jpg);
+    /*el alto que va a ocupar*/
+    height: 369px;
+    /*que no se repita la imagen*/
+    background-repeat: no-repeat;
+    /*para que se vea toda la foto*/
+    background-size: contain;
+    /*para que se posiciones en el centro*/
+    background-position: center;
+    /*que sea felxible*/
+    display: flex;
+    /*para que se justifique en el centro*/
+    justify-content: center;
+    /*para que se alieneen en el centro*/
+    align-items: center;
+}
+
+
+/*clase para la foto de edificio del banquete*/
+
+.foto2 {
+    /*margen con arriba*/
+    margin-top: 25px;
+    /*añadir la imagen*/
+    background-image: url(../img/hotel.jpg);
+    /*el alto que va a ocupar*/
+    height: 280px;
+    /*que no se repita la imagen*/
+    background-repeat: no-repeat;
+    /*para que se vea toda la foto*/
+    background-size: contain;
+    /*para que se posiciones en el centro*/
+    background-position: center;
+    /*que sea felxible*/
+    display: flex;
+    /*para que se justifique en el centro*/
+    justify-content: center;
+    /*para que se alieneen en el centro*/
+    align-items: center;
+}
+
+
+/*clase para lo flexible*/
+
+.box {
+    /*que sea felxible*/
+    display: flex;
+    /*para que sea modo columna*/
+    flex-direction: column;
+    /*para que se justifique en el centro*/
+    justify-content: center;
+}
+
+
+/*afecta a las tablas*/
+
+table {
+    /*margen con arriba*/
+    margin-top: 25px;
+    /*para que se alieneen en el centro*/
+    align-items: center;
+    /*espacio entre el borde y las letras*/
+    padding: 5px;
+    /*ancho maximo*/
+    max-width: 100%;
+    /*margen izquierdo*/
+    margin-left: 10px;
+    /*margen derecho*/
+    margin-right: 10px;
+    /*justifcado en el centro*/
+    justify-content: center;
+    /*modo columna si se achica*/
+    flex-direction: column;
+}
+
+
+/*afecta a los h4, a las a y a las p*/
+
+p,
+a,
+h4 {
+    /*margen general */
+    margin: 20px;
+    /*texto en el centro */
+    text-align: center;
+    /*tamaño de letra*/
+    font-size: 22px;
+    /*color de letra*/
+    color: black;
+    /*sin decoracion*/
+    text-decoration: none;
+}
+
+
+/*clase para los div de los enlaces*/
+
+.iglesia {
+    /*posicion centrada*/
+    background-position: center;
+    /*flexible*/
+    display: flex;
+    /*justificado en el centro*/
+    justify-content: center;
+    /*los items en el centro*/
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+
+        <loc>http://www.SofiayCesar.com/AvisoLegal</loc>
+
+        <!--Última modificación-->
+
+        <lastmod>2022-05-19</lastmod>
+
+        <!--Cada cuanto tiende la página a cambiar-->
+
+        <changefreq>Mensual</changefreq>
+
+        <!--Preferencia (valores desde 0.1 a 1.0)-->
+
+        <priority>0.8</priority>
+
+    </url>
+    <url>
+        <loc>http://www.SofiaYCesar.com/PoliticaDeCookies</loc>
+
+        <!--Última modificación-->
+
+        <lastmod>2022-05-19</lastmod>
+
+        <!--Cada cuanto tiende la página a cambiar-->
+
+        <changefreq>Mensual</changefreq>
+
+        <!--Preferencia (valores desde 0.1 a 1.0)-->
+
+        <priority>0.6</priority>
+
+    </url>
+
+    
+
+    <url>
+
+        <loc>http://www.SofiaYCesar.com/PoliticaDePrivacidad</loc>
+
+        <!--Última modificación-->
+
+        <lastmod>2022-05-19</lastmod>
+
+        <!--Cada cuanto tiende la página a cambiar-->
+
+        <changefreq>Mensual</changefreq>
+
+        <!--Preferencia (valores desde 0.1 a 1.0)-->
+
+        <priority>0.9</priority>
+
+    </url>
+
+</urlset>
+
+
+
+
+
